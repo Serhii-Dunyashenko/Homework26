@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+
+.voting_wrapper {
+    max-width: 1080px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.voting_card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.voting_img {
+    cursor: pointer;
+    margin-bottom: 15px;
+    max-width: 100px;
+}
+
+.voting_counter {
+    font-size: 24px;
+    font-weight: bold;
+}
